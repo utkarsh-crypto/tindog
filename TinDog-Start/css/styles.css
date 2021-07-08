@@ -1,0 +1,174 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.x{
+  padding: 5% 15% 10%;
+}
+
+.y{
+  text-align: center;
+  background-color: white;
+  position: relative;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.nav-item{
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.navbar{
+  padding: 0;
+}
+.row{
+  margin-top: 4.5rem;
+}
+
+.btn{
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.rotated{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+.icon{
+  color: #ef8172;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+.features{
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.featureDetails{
+  color: #8f8f8f;
+}
+
+.featureCol{
+  padding: 5%;
+}
+
+#testimonial{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.testHeading{
+  color: white;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testImg{
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+
+em{
+  color: white;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.companyimg{
+  width: 15%;
+  margin: 20px 20px 45px;
+}
+
+.carousel-inner{
+  padding: 7% 15%;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.priceCol{
+  padding: 3% 2%;
+}
+
+.priceHeading{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#pricing p{
+  color: #8f8f8f;
+  font-weight: 600;
+}
+
+@media (max-width:1000px){
+  #title{
+    text-align: center;
+  }
+  .titleCol{
+    padding-bottom: 30px;
+  }
+  .rotated{
+    position: static;
+    transform:rotate(0);
+  }
+}
+
+#end{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15% 10%;
+}
+
+.endTitle{
+  color: white;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+  margin-bottom: 4%;
+}
+
+#footer{
+  text-align: center;
+  padding: 7%  15%;
+}
+
+#footer i{
+  margin: 2% 1.5%;
+}
