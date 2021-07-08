@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body{
   font-family: 'Montserrat', sans-serif;
 }
@@ -49,7 +56,9 @@ body{
 }
 
 .rotated{
-  transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+      -ms-transform: rotate(25deg);
+          transform: rotate(25deg);
   width: 60%;
   position: absolute;
   right: 30%;
@@ -146,7 +155,9 @@ em{
   }
   .rotated{
     position: static;
-    transform:rotate(0);
+    -webkit-transform:rotate(0);
+        -ms-transform:rotate(0);
+            transform:rotate(0);
   }
 }
 
